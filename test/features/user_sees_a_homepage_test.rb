@@ -1,6 +1,6 @@
 require './test/test_helper'
 
-class HomepageTest < CapabaraTestCase
+class HomepageTest < CapybaraTestCase
 
   def test_user_can_see_the_homepage
     visit '/'
